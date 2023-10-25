@@ -1,22 +1,9 @@
-body {
-  background-image: url("./images/headphones_hero_1.jpg");
-}
-
-.container nav {
+header {
+  background-image: url("images/headphones_hero_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
   display: flex;
-  justify-content: space-around;
-}
-
-.container nav ul {
-  list-style-type: none;
-}
-
-.header-nav a {
-  color: aliceblue;
-  text-decoration: none;
-  list-style-type: none;
-}
-
-body {
-  display: flex;
+  position: relative;
+  color: white;
 }
